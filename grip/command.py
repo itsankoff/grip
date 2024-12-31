@@ -113,7 +113,7 @@ def main(argv=None, force_utf8=True, patch_svg=True):
             print('Error: valid options for theme argument are "light", "dark"')
             return 1
     else:
-        theme = 'light'
+        theme = 'dark'
 
     # Export to a file instead of running a server
     if args['--export']:
